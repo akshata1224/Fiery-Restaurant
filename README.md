@@ -1,3 +1,11 @@
+# Screenshot
+<img width="1080" alt="Screenshot 2024-02-16 103830" src="https://github.com/akshata1224/Fiery-Restaurant/assets/73269344/c55c41c1-0050-4368-9f3a-0522fa9723c3">
+<img width="1091" alt="image" src="https://github.com/akshata1224/Fiery-Restaurant/assets/73269344/2944e9de-8c91-4467-a45f-5d10aad6b7fa">
+<img width="1080" alt="image" src="https://github.com/akshata1224/Fiery-Restaurant/assets/73269344/3bd70628-3908-4378-af4e-ee2131dfa386">
+
+
+
+
 # FieryRestaurant
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
