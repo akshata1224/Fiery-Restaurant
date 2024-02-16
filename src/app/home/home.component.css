@@ -1,0 +1,25 @@
+.gradient-bg {
+    background: url('/assets/food3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(224, 40, 40, 0.5), rgba(0,0,0,0.8));
+    z-index: 1;
+  }
+  
+  /* .gradient-bg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(224, 40, 40, 0.5), rgba(0,0,0,0.8));
+    z-index: 1;
+  } */
+  

@@ -1,0 +1,41 @@
+{
+    "item" :[
+        {
+            "itemNo": "ITM001",
+            "name": "Product A",
+            "quantity": 3,
+            "price": 10.99,
+            "itemValue": 32.97
+        },
+        {
+            "itemNo": "ITM002",
+            "name": "Product B",
+            "quantity": 3,
+            "price": 20.99,
+            "itemValue": 312.97
+        },
+        {
+            "itemNo": "ITM003",
+            "name": "Product C",
+            "quantity": 6,
+            "price": 20.99,
+            "itemValue": 312.97
+        },
+          {
+            "itemNo": "ITM004",
+            "name": "Product D",
+            "quantity": 3,
+            "price": 20.99,
+            "itemValue": 312.97
+          },
+          {
+            "itemNo": "ITM005",
+            "name": "Product E",
+            "quantity":13,
+            "price": 20.99,
+            "itemValue": 312.97
+          }
+          
+          
+    ]
+}

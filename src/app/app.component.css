@@ -1,0 +1,11 @@
+.footer{
+    position: fixed;
+
+}
+
+.bg-dark-gradient {
+    background: linear-gradient(to bottom, #1b1c1d, #0f0f10);
+    /* Customize the colors and direction as needed */
+    color: #fff; /* Set text color to white or any suitable color for contrast */
+  }
+  

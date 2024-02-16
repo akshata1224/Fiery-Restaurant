@@ -1,0 +1,31 @@
+
+ <table class="table m-2 md-4 table-bordered table-hover table-responsive table-dark">
+            <thead class="thead-dark">
+                <tr class=" justify-content-center">
+                    <th>Order No</th>
+                    <th>Contact Name</th>
+                    <th>Order Date</th>
+                    <th>Items Ordered </th>
+                    <th>Order Total</th>
+                    <th>Tax Total</th>
+                    <th>Grand Total</th>
+                    <th>View Orders</th>
+                </tr>
+            </thead>
+            <tbody class="text-align-center">
+                <tr *ngFor="let p of orders " class="justify-content-end"> 
+                    <td>{{p.orderNo}}</td>
+                    <td>{{p.contactName}}</td>
+                    <td>{{p.orderDate}}</td>
+                    <td>{{p.itemsOrdered.length}}</td>
+                    <td>{{p.orderTotal}}</td>
+                    <td>{{p.taxTotal}}</td>
+                    <td>{{p.grandTotal}}</td>
+                    <td><a routerLink="/view_order_info" [queryParams]="{ orderNo: p.orderNo }" class="btn btn-success justify-content-end">View Order</a></td>
+                   <!-- <td><button (click)="update(p); updateClick()" class="btn btn-warning justify-content-end">Update</button></td>
+                     <td><a routerLink="/pet/{{p.id}}/update" class="btn btn-warning justify-content-end">Update</a></td> -->
+                </tr> 
+            </tbody>
+        </table> 
+
+        <router-outlet></router-outlet>
